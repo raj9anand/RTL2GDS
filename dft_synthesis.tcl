@@ -1,8 +1,8 @@
 ## the search paths for libraries, scripts and RTL
 
-set_db init_lib_search_path {/DIG_DESIGN/STUDENTS/PHD/anandraj/mod10counter/lib/}
-set_db init_hdl_search_path {/DIG_DESIGN/STUDENTS/PHD/anandraj/mod10counter/rtl/}
-set_db script_search_path {/DIG_DESIGN/STUDENTS/PHD/anandraj/mod10counter/constraint/}
+set_db init_lib_search_path {/mod10counter/lib/}     #########library directory
+set_db init_hdl_search_path {/mod10counter/rtl/}     ###############rtl directory
+set_db script_search_path {/mod10counter/constraint/}      #############constraint directory
 
 #libraray ,scrpt and RTL
 set_db library slow_vdd1v0_basicCells.lib
